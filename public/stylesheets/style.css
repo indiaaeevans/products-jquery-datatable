@@ -1,0 +1,23 @@
+table, .top, .bottom {
+  width: 80%;
+}
+
+.bottom, .top, h3 {
+  margin: 10px 0;
+}
+
+div.top > div {
+  display: inline;
+}
+
+div.top > div.dataTables_length {
+  float: right;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+  justify-content: center;
+}
+
+table.dataTable td:not(:first-child), table.dataTable th:not(:first-child) {
+  padding-left: 25px;
+}
